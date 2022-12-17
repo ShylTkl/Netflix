@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(Netflix-4.jpg);
+    background-repeat: no-repeat;
+    color: white;
+    background-size: 1440px 1096px;
+    height: 1096px;
+    width: 1440px;
+}
+.container{
+    width: 1240px;
+    height: 1036px;
+    margin:30px auto;
+    background-color: rgba(0,0,0,0.3);
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+.title{
+    height: 90px;
+    font-family: 'Bowlby One SC', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    text-align: center;
+}
+span{
+    color: red;
+}
+.div_form{
+    width: 500px;
+    height: 897px;
+    margin: auto;
+    padding: 10px;
+    background-color: rgba(0,0,0,0.8);
+}
+.form{
+    width: 500px;
+    height: 887px;
+    margin: 10px 0 0 0;
+
+}
+.box{
+    width: 460px;
+    height: 92px;
+    margin: 20px 30px;
+}
+.box-under{
+    width: 420px;
+    height: 60px;
+    padding: 10px;
+    margin-top: 10px;
+}
+textarea{
+   width: 420px;
+   height: 91.46px;
+   resize: none;
+}
+button{
+    width: 160px;
+    height: 45px;
+    background-color:#FF0000;
+    border-radius: 50px;
+    color: white;
+    border-color: rgba(0,0,0,0.1);
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 170px;
+    cursor: pointer;
+}

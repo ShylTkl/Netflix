@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="netflix.css">
+    <link
+      rel="shortcut icon"
+      href="ntflix_küçük.png"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Roboto:ital,wght@1,900&family=Sorts+Mill+Goudy&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">NET<span>FLİX</span></h1>
+        <div class="div_form">
+            <form class="form" action="" method="post">
+            <div class="box">
+                <label class="box-in" for="name">Name</label>
+                <br>
+                <input class="box-under" type="text" name="name" id="name" placeholder="enter your name">
+            </div>    
+
+                <div class="box">
+                    <label class="box-in" for="age">Age</label>
+                    <br>    
+                    <input class="box-under" type="number" name="age" id="age" placeholder="age">
+                </div>
+
+                <div class="box">
+                    <label class="box-in" for="email">Email</label>
+                    <br>
+                    <input class="box-under" type="email" name="email" id="email" placeholder="email">
+                </div>
+
+                <div class="box">
+                    <label class="box-in" for="content">Content Type</label>
+                    <br>
+                    <select class="box-under" name="content" id="content">
+                        <option value="movies">movies</option>
+                        <option value="series">series</option>
+                    </select>
+                </div>
+
+                <div class="box">
+                    <label for="movies">Movie Type</label>
+                    <br>
+                    <input type="checkbox" name="comedy" id="comedy" checked>Comedy
+                    <br>
+                    <input type="checkbox" name="action" id="action" checked>Action
+                    <br>
+                    <input type="checkbox" name="romance" id="romance" checked>Romance
+                </div>
+
+                <div class="box">
+                    <label for="gender">Gender</label>
+                    <br>
+                    <label>
+                        <input type="radio" name="male" id="male" checked>
+                        Male
+                    </label>
+                    <br>
+                    <label>
+                        <input type="radio" name="female" id="female">
+                        Female
+                    </label>
+                    <br>
+                    <label>
+                        <input type="radio" name="other" id="other">
+                        Other
+                    </label>
+                </div>
+
+                <div class="box">
+                    <label for="feedback">FeedBack</label>
+                    <br>
+                    <textarea
+                      name=""
+                      id="feedback"
+                      cols="" 
+                      rows="8"
+                      placeholder="any comment">
+                    </textarea>
+                </div>
+
+                <div>
+                    <button type="submit">Send</button>
+                </div>
+            </form>
+
+            </div>
+            <footer>Powered By ShylTkl</footer>
+
+    </div>         
+</body>
+</html>
